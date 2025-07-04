@@ -25,9 +25,11 @@
 ##코드업 문제 풀기
 
 
+##출력하기 문제
 #1. print("\"Hello World\"")
 
 
+##입력 받기&&if문
 #2. inhak = int(input())
 #   if inhak%7 == 0:
 #     print("multiple")
@@ -40,9 +42,17 @@
 # else:
 #     print("oh my god")
 
+#4. ball = int(input())
+# if ball >= 30 and  ball <= 40 or ball >= 60 and ball <= 70:
+    # print("win")
+# else:
+    # print("lose")
 
-ball = int(input())
-if ball >= 30 and  ball <= 40 or ball >= 60 and ball <= 70:
-    print("win")
-else:
-    print("lose")
+
+#5. year, month, day = map(int,input().split()) 
+#map() = 문자열을 숫자열로 바꿀 때 사용
+# buzi = year - month + day
+# if buzi%10==0:
+#     print("대박")
+# else:
+#     print("그럭저럭")
