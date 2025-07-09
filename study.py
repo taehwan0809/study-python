@@ -7,6 +7,9 @@
 #dict = 키와값
 #input = 입력 받는 거
 
+
+#map() = 문자열을 숫자열로 바꿀 때 사용
+
 ##입력값 받고 출력하기
 # a = int(input())
 # print(a)
@@ -48,11 +51,29 @@
 # else:
     # print("lose")
 
-
 #5. year, month, day = map(int,input().split()) 
-#map() = 문자열을 숫자열로 바꿀 때 사용
 # buzi = year - month + day
 # if buzi%10==0:
 #     print("대박")
 # else:
 #     print("그럭저럭")
+
+##버블 정렬
+#6. a,b = (input().split())
+# c= 0
+# c= a
+# a= b
+# b= c
+# print(a,b)
+
+##for문
+#7. i = int(input())
+# for star in range(i):
+#     print("*",end="")
+
+##축구의 신 문제
+#now,goal = map(int,input().split())
+# for i in range(now,90,5):
+#     goal +=1
+# print(goal)
+
