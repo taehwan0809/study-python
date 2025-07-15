@@ -66,14 +66,26 @@
 # b= c
 # print(a,b)
 
+
 ##for문
+
+
 #7. i = int(input())
 # for star in range(i):
 #     print("*",end="")
 
-##축구의 신 문제
+#8.축구의 신 문제
 #now,goal = map(int,input().split())
 # for i in range(now,90,5):
 #     goal +=1
 # print(goal)
+
+#9. a,b = map(int,input().split())
+# x= a//b
+# y= b//a
+
+# if b%a == 0:
+#     print(f"{a}*{y}={b}")
+# else:
+#     print("none")
 
