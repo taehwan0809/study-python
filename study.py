@@ -68,8 +68,6 @@
 
 
 ##for문
-
-
 #7. i = int(input())
 # for star in range(i):
 #     print("*",end="")
@@ -88,4 +86,13 @@
 #     print(f"{a}*{y}={b}")
 # else:
 #     print("none")
+
+
+#10. n = int(input())
+# x=0
+# for i in range(1,n+1):
+#     if i%2 == 0:
+#         x += i
+# print(x)
+
 
